@@ -1,37 +1,25 @@
-## Welcome to GitHub Pages
+## TV Script Generation with TensorFlow
 
-You can use the [editor on GitHub](https://github.com/morizin/Tv-Script--Generation/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+[This script](https://github.com/morizin/Tv-Script--Generation/edit/master/dlnd_tv_script_generation.ipynb) which is written output a TV Script when we input some amount of text 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+**Both in _Keras_ and _TensorFlow_**
 
-### Markdown
+![Image](https://www.researchgate.net/profile/Xuan_Hien_Le2/publication/334268507/figure/fig8/AS:788364231987201@1564972088814/The-structure-of-the-Long-Short-Term-Memory-LSTM-neural-network-Reproduced-from-Yan.png)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+[For more Details About LSTM and RNN] (https://colah.github.io/posts/2015-08-Understanding-LSTMs/)
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+## Installation
 
-1. Numbered
-2. List
+**Enter this in your Terminal or Command prompt(if Windows)**
+`pip install requirements.txt`_for Windows_ 
+`pip3 install requirements.txt`_for OS X / Linux_
 
-**Bold** and _Italic_ and `Code` text
+## Issue
 
-[Link](url) and ![Image](src)
-```
+At the end there is some code missing.I will fix it.
+`tensorflow.contrib.rnn.dynamic_rnn()` MAy have some problem in running
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/morizin/Tv-Script--Generation/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## License
+[Creative Common](https://creativecommons.org/licenses/)
